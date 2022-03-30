@@ -17,4 +17,9 @@ public class FeedbackAppApplication {
 	public String sayHello() {
 		return "ello govna";
 	}
+	
+	@GetMapping("/sayBye")
+	public String sayBye() {
+		return "bye felicia";
+	}
 }
